@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.devism.decisio">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +16,11 @@
         <activity android:name=".AnswerActivity" />
         <activity android:name=".MoodActivity" />
         <activity android:name=".DashActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DashActivity"></activity>
         <activity android:name=".QuizActivity" />
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".SigninActivity" />
         <activity android:name=".StartingScreenActivity" />
         <activity android:name=".ScreenStartingActivity" />
         <activity android:name=".FrequencyActivity" />
@@ -27,7 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
