@@ -29,35 +29,56 @@
             android:id="@+id/r0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="6 Hours"
+            android:text="Cheerful"
             android:onClick="sendMessage"/>
 
         <RadioButton
             android:id="@+id/r1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12 Hours"
+            android:text="Gloomy"
             android:onClick="sendMessage"/>
 
         <RadioButton
             android:id="@+id/r2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="24 Hours"
+            android:text="Humourous"
             android:onClick="sendMessage"/>
 
         <RadioButton
             android:id="@+id/r3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="48 Hours"
+            android:text="Calm"
             android:onClick="sendMessage"/>
 
         <RadioButton
             android:id="@+id/r4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1 Week"
+            android:text="Romantic"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angry"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tense"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lighthearted"
             android:onClick="sendMessage"/>
 
     </RadioGroup>

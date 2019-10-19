@@ -8,12 +8,12 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-public class DashActivity extends AppCompatActivity {
+public class QuestionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dash);
+        setContentView(R.layout.activity_question);
     }
 
     public void sendMessage(View view) {
@@ -22,14 +22,22 @@ public class DashActivity extends AppCompatActivity {
         RadioButton radioButton = (RadioButton) radioGroup.findViewById(radioButtonID);
         String selectedtext = (String) radioButton.getText();
         int option = 1;
-        if(selectedtext.contains("Want to Answer?")) option = 1;
-        else if(selectedtext.contains("Want to Question?")) option = 2;
-        if(option == 2) {
-            Intent intent = new Intent(this, MoodActivity.class);
-            startActivity(intent);
-        }
-        else {
+        if(selectedtext.contains("What to Listen?")) {
 
         }
+        else if(selectedtext.contains("What to Eat?")) {
+
+        }
+        else if(selectedtext.contains("What to Wear?")) {
+
+        }
+        else if(selectedtext.contains("What to Do?")) {
+
+        }
+        else if(selectedtext.contains("Where to Go?")) {
+
+        }
+        Intent intent = new Intent(this, ResultActivity.class);
+        startActivity(intent);
     }
 }

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DashActivity"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".AnswerActivity" />
+        <activity android:name=".MoodActivity" />
+        <activity android:name=".DashActivity" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".StartingScreenActivity" />
         <activity android:name=".ScreenStartingActivity" />
