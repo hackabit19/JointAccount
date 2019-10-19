@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="@android:color/white"
     android:padding="16dp"
     tools:context="com.devism.decisio.QuizActivity">
 
@@ -26,6 +26,12 @@
         android:layout_centerVertical="true">
 
         <RadioButton
+            android:id="@+id/radio_button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 Hours" />
+
+        <RadioButton
             android:id="@+id/radio_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,6 +49,12 @@
             android:layout_height="wrap_content"
             android:text="48 Hours" />
 
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Week" />
+
     </RadioGroup>
 
     <Button
@@ -51,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radio_group"
         android:layout_marginTop="16dp"
-        android:text="Confirm" />
+        android:text="Confirm"
+        android:onClick="sendMessage"/>
 
 </RelativeLayout>

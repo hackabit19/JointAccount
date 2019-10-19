@@ -1,8 +1,10 @@
 package com.devism.decisio;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -12,7 +14,8 @@ public class QuizActivity extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
     }
 
-    protected void onClick(button_confirm_next) {
-
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, DashActivity.class);
+        startActivity(intent);
     }
 }
