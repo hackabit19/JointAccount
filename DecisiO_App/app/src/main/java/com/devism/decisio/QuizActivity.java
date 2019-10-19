@@ -32,6 +32,7 @@ public class QuizActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DashActivity.class);
         startActivity(intent);
     }
+
     private void getTimeFromAndroid() {
         Calendar c = Calendar.getInstance();
         int timeOfDay = c.get(Calendar.HOUR_OF_DAY);

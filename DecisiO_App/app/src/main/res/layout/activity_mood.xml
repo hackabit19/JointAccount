@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/radio_group"
         android:layout_marginBottom="16dp"
-        android:text="How frequent do you want to answer questions?"
+        android:text="What is your Current Mood?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
