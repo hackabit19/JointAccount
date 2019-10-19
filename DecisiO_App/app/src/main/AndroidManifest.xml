@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.devism.decisio">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/NoActionBarStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CoordinatorLayout"
+            android:theme="@style/NoActionBarStyle" />
+        <activity android:name=".NavigationDrawerActivity" />
+        <activity android:name=".BuildMenu" />
+        <activity android:name=".FaceMenu" />
+        <activity android:name=".FingerprintMenu" />
+        <activity android:name=".ArrowMenu" />
+        <activity android:name=".ShareMenu" />
+        <activity
+            android:name=".DualCamActivity"
+            android:theme="@style/NoActionBarStyle"
+            android:screenOrientation="landscape"/>
         <activity android:name=".DashActivity"></activity>
         <activity android:name=".QuizActivity" />
         <activity android:name=".StartingScreenActivity" />
@@ -23,7 +48,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
