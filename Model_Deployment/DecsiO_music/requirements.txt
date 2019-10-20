@@ -1,0 +1,12 @@
+Flask==1.0.2
+imutils==0.5.2
+inflect==2.1.0
+numpy==1.16.2
+numpydoc==0.8.0
+pandas==0.24.2
+requests==2.21.0
+scikit-image==0.14.2
+scikit-learn==0.20.3
+scipy==1.2.1
+Flask-SQLAlchemy==2.4.0
+gunicorn==19.9.0
