@@ -55,14 +55,14 @@
         android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/a1"
+            android:id="@+id/a0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cow's Milk"
             android:onClick="sendMessage"/>
 
         <RadioButton
-            android:id="@+id/a2"
+            android:id="@+id/a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Eggs"
@@ -83,232 +83,300 @@
             android:onClick="sendMessage"/>
 
         <RadioButton
-            android:id="@+id/a5"
+            android:id="@+id/h3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="High Wind"
             android:onClick="sendMessage"/>
-
+    
     <TextView
         android:id="@+id/text_view_question3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="What all chronic diseases do you have?"
+        android:text="Which all Cuisine do you like?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/c1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Diabetes"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mexican"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/c2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="High Blood Pressure"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/c3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Physically Challenged"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indian"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/c4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cancer"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thai"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/c5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Obesity"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/c6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ashtma"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/c7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Stroke"
-        android:onClick="sendMessage"/>
-
-    <TextView
-        android:id="@+id/text_view_question7"
+       <TextView
+        android:id="@+id/text_view_question6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which genre do you like?"
+        android:text="Which all Indian Cuisine do you like?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/f1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Classical"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/e0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Norh Indian"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/f2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rock"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="East Indian"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/f3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jazz"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="West Indian"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/f4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="EDM"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/f5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rap"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/f6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Instrumental"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/f7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Soofi"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/f8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Heavy Metal"
-        android:onClick="sendMessage"/>
-
+        <RadioButton
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="South Indian"
+            android:onClick="sendMessage"/>
+    
     <TextView
-        android:id="@+id/text_view_question10"
+        android:id="@+id/text_view_question8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which Decade's music do you like?"
+        android:text="Which type of food do you like?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/i1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="70's"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/g0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sweet"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/i2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="80's"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/g1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sour"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/i3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="90's"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/g2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spicy"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/i4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="00's"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/i5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="10's"
-        android:onClick="sendMessage"/>
-
-    <RadioButton
-        android:id="@+id/i6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Current"
-        android:onClick="sendMessage"/>
-
+        <RadioButton
+            android:id="@+id/g3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salty"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/g4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic"
+            android:onClick="sendMessage"/>
+    
+    
     <TextView
-        android:id="@+id/text_view_question13"
+        android:id="@+id/text_view_question8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which Cloth Material do you like?"
+        android:text="Which Language do you like?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/l1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cotton"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/h0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/l2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wool"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/l3"
-        android:layout_width="wrap_content"
+        <RadioButton
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Punjabi"
+            android:onClick="sendMessage"/>
+    
+     <TextView
+        android:id="@+id/text_view_question12"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Silk"
-        android:onClick="sendMessage"/>
+        android:layout_marginBottom="16dp"
+        android:text="What is your employment status?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
-    <RadioButton
-        android:id="@+id/l4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Leather"
-        android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/k0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:onClick="sendMessage"/>
 
-    <RadioButton
-        android:id="@+id/l5"
-        android:layout_width="wrap_content"
+        <RadioButton
+            android:id="@+id/k1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employeed"
+            android:onClick="sendMessage"/>
+    
+     <TextView
+        android:id="@+id/text_view_question14"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Denim"
-        android:onClick="sendMessage"/>
+        android:layout_marginBottom="16dp"
+        android:text="What is your Salary Slab?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/m0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0-2.5L"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5L-5L"
+            android:onClick="sendMessage"/>
+
+    
+        <RadioButton
+            android:id="@+id/m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5L-10L"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/m3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">10L"
+            android:onClick="sendMessage"/>
+    
+      <TextView
+        android:id="@+id/text_view_question16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which colors do you like?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/o0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/o1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:onClick="sendMessage"/>
+        
+        <RadioButton
+            android:id="@+id/o2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/o3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="orange"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purple"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gray"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/o9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pink"
+            android:onClick="sendMessage"/>
 
 </RelativeLayout>
