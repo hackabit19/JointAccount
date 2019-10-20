@@ -1,5 +1,6 @@
 package com.devism.decisio;
 
+//import com.devism.post;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,6 +11,8 @@ import android.widget.RadioGroup;
 
 public class QuestionActivity extends AppCompatActivity {
 
+
+    //PostRequest postRequest = new PostRequest();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,22 +25,22 @@ public class QuestionActivity extends AppCompatActivity {
         RadioButton radioButton = (RadioButton) radioGroup.findViewById(radioButtonID);
         String selectedtext = (String) radioButton.getText();
         int option = 1;
+        String url = "";
         if(selectedtext.contains("What to Listen?")) {
-
+        //    url = "";
         }
         else if(selectedtext.contains("What to Eat?")) {
-
+          //  url = "";
         }
         else if(selectedtext.contains("What to Wear?")) {
-
+            //url = "";
         }
         else if(selectedtext.contains("What to Do?")) {
-
+           // url = "";
         }
         else if(selectedtext.contains("Where to Go?")) {
-
+            //url = "";
         }
-        Intent intent = new Intent(this, ResultActivity.class);
-        startActivity(intent);
+
     }
 }
