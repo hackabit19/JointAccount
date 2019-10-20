@@ -32,7 +32,7 @@ public class MoodActivity extends AppCompatActivity {
         else if(selectedtext.contains("Angry")) option = 6;
         else if(selectedtext.contains("Tense")) option = 7;
         else if(selectedtext.contains("Lighthearted")) option = 8;
-        Intent i = new Intent(this, AnswerActivity.class);
+        Intent i = new Intent(this, QuestionActivity.class);
         startActivity(i);
     }
 }

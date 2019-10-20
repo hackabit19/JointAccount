@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/radio_group"
         android:layout_marginBottom="16dp"
-        android:text="What do you want to do with DecisiO?"
+        android:text="What do you want to Know?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />

@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AnswerActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/text_view_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="What type of weather do you like?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/w0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/w1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cold"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/w2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rainy"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/w3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring"
+            android:onClick="sendMessage"/>
+
+    <TextView
+        android:id="@+id/text_view_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="What all allergies do you have?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/a0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow's Milk"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eggs"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altitude"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoke"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Wind"
+            android:onClick="sendMessage"/>
+    
+</RelativeLayout>

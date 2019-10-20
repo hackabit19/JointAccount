@@ -29,7 +29,8 @@ public class DashActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else {
-
+            Intent intent = new Intent(this, AnswerActivity.class);
+            startActivity(intent);
         }
     }
 }

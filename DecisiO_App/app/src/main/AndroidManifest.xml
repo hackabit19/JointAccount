@@ -18,7 +18,6 @@
         <activity android:name=".AnswerActivity" />
         <activity android:name=".MoodActivity" />
         <activity android:name=".DashActivity" />
-        <activity android:name=".QuizActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
