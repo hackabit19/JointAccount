@@ -89,294 +89,455 @@
             android:text="High Wind"
             android:onClick="sendMessage"/>
     
+        <TextView
+        android:id="@+id/text_view_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which artist do you love the most?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arijit Singh"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eminem"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Malone"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Armaan Malik"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taylor Swift"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shawn Mendes"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dua Lipa"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chainsmokers"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 Pilots"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lata Mangeshkar"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guru Randhwa"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hardy Sandhu"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaz Manak"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badshaah"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AR Rehman"
+            android:onClick="sendMessage"/>
     <TextView
-        android:id="@+id/text_view_question3"
+        android:id="@+id/text_view_question11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which all Cuisine do you like?"
+        android:text="What is your expenditure per month?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/b0"
+    <RadioButton
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mexican"
+            android:text="Less than 3k"
             android:onClick="sendMessage"/>
-
         <RadioButton
-            android:id="@+id/b1"
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Italian"
+            android:text="3k - 5k"
             android:onClick="sendMessage"/>
-
         <RadioButton
-            android:id="@+id/b2"
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Indian"
+            android:text="5k - 10k"
             android:onClick="sendMessage"/>
-
         <RadioButton
-            android:id="@+id/b3"
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thai"
+            android:text="10k - 20k"
             android:onClick="sendMessage"/>
-
-       <TextView
-        android:id="@+id/text_view_question6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Which all Indian Cuisine do you like?"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="20sp" />
-
         <RadioButton
-            android:id="@+id/e0"
+            android:id="@+id/j5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Norh Indian"
-            android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/e1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="East Indian"
-            android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/e2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="West Indian"
-            android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/e3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="South Indian"
+            android:text="More than 20k"
             android:onClick="sendMessage"/>
     
     <TextView
-        android:id="@+id/text_view_question8"
+        android:id="@+id/text_view_question15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which type of food do you like?"
+        android:text="What is / are your hobbies?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/g0"
+    <RadioButton
+            android:id="@+id/n1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sweet"
+            android:text="Reading"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/g1"
+    <RadioButton
+            android:id="@+id/n2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sour"
+            android:text="Travelling"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/g2"
+    <RadioButton
+            android:id="@+id/n3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Spicy"
+            android:text="Photography"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/g3"
+    <RadioButton
+            android:id="@+id/n4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salty"
+            android:text="Art & Crafts"
             android:onClick="sendMessage"/>
-    
-        <RadioButton
-            android:id="@+id/g4"
+    <RadioButton
+            android:id="@+id/n5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Basic"
+            android:text="Collecting Things"
             android:onClick="sendMessage"/>
-    
-    
-    <TextView
-        android:id="@+id/text_view_question8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Which Language do you like?"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/h0"
+    <RadioButton
+            android:id="@+id/n6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hindi"
+            android:text="Music"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/h1"
+    <RadioButton
+            android:id="@+id/n7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="English"
+            android:text="Video Games"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/h2"
+    <RadioButton
+            android:id="@+id/n8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Punjabi"
+            android:text="Outdoor Games"
             android:onClick="sendMessage"/>
-    
+    <RadioButton
+            android:id="@+id/n9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indoor Games"
+            android:onClick="sendMessage"/>
+    <RadioButton
+            android:id="@+id/n10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movies"
+            android:onClick="sendMessage"/>
      <TextView
-        android:id="@+id/text_view_question12"
+        android:id="@+id/text_view_question5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="What is your employment status?"
+        android:text="Which artist do you love the most?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/k0"
+            android:id="@+id/d1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student"
+            android:text="Arijit Singh"
             android:onClick="sendMessage"/>
 
         <RadioButton
-            android:id="@+id/k1"
+            android:id="@+id/d2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Employeed"
+            android:text="Eminem"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Malone"
+            android:onClick="sendMessage"/>
+
+        <RadioButton
+            android:id="@+id/d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Armaan Malik"
             android:onClick="sendMessage"/>
     
-     <TextView
-        android:id="@+id/text_view_question14"
+        <RadioButton
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taylor Swift"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shawn Mendes"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dua Lipa"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chainsmokers"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 Pilots"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lata Mangeshkar"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guru Randhwa"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hardy Sandhu"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaz Manak"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Badshaah"
+            android:onClick="sendMessage"/>
+    
+        <RadioButton
+            android:id="@+id/d15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AR Rehman"
+            android:onClick="sendMessage"/>
+    <TextView
+        android:id="@+id/text_view_question11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="What is your Salary Slab?"
+        android:text="What is your expenditure per month?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/m0"
+    <RadioButton
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0-2.5L"
+            android:text="Less than 3k"
             android:onClick="sendMessage"/>
-
         <RadioButton
-            android:id="@+id/m1"
+            android:id="@+id/j1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2.5L-5L"
+            android:text="3k - 5k"
             android:onClick="sendMessage"/>
-
+        <RadioButton
+            android:id="@+id/j1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5k - 10k"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/j1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10k - 20k"
+            android:onClick="sendMessage"/>
+        <RadioButton
+            android:id="@+id/j5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More than 20k"
+            android:onClick="sendMessage"/>
     
-        <RadioButton
-            android:id="@+id/m2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="5L-10L"
-            android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/m3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=">10L"
-            android:onClick="sendMessage"/>
-    
-      <TextView
-        android:id="@+id/text_view_question16"
+    <TextView
+        android:id="@+id/text_view_question15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Which colors do you like?"
+        android:text="What is / are your hobbies?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/o0"
+    <RadioButton
+            android:id="@+id/n1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Red"
+            android:text="Reading"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/o1"
+    <RadioButton
+            android:id="@+id/n2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yellow"
+            android:text="Travelling"
             android:onClick="sendMessage"/>
-        
-        <RadioButton
-            android:id="@+id/o2"
+    <RadioButton
+            android:id="@+id/n3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blue"
+            android:text="Photography"
             android:onClick="sendMessage"/>
-
-        <RadioButton
-            android:id="@+id/o3"
+    <RadioButton
+            android:id="@+id/n4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="orange"
+            android:text="Art & Crafts"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o4"
+    <RadioButton
+            android:id="@+id/n5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Green"
+            android:text="Collecting Things"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o5"
+    <RadioButton
+            android:id="@+id/n6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Black"
+            android:text="Music"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o6"
+    <RadioButton
+            android:id="@+id/n7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Purple"
+            android:text="Video Games"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o7"
+    <RadioButton
+            android:id="@+id/n8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="White"
+            android:text="Outdoor Games"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o8"
+    <RadioButton
+            android:id="@+id/n9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gray"
+            android:text="Indoor Games"
             android:onClick="sendMessage"/>
-        <RadioButton
-            android:id="@+id/o9"
+    <RadioButton
+            android:id="@+id/n10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pink"
+            android:text="Movies"
             android:onClick="sendMessage"/>
-
+    
+    
+</RelativeLayout>
+    
+    
 </RelativeLayout>
