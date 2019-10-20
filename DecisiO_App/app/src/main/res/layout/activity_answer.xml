@@ -55,14 +55,14 @@
         android:textSize="20sp" />
 
         <RadioButton
-            android:id="@+id/a0"
+            android:id="@+id/a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cow's Milk"
             android:onClick="sendMessage"/>
 
         <RadioButton
-            android:id="@+id/a1"
+            android:id="@+id/a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Eggs"
@@ -83,10 +83,232 @@
             android:onClick="sendMessage"/>
 
         <RadioButton
-            android:id="@+id/h3"
+            android:id="@+id/a5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="High Wind"
             android:onClick="sendMessage"/>
-    
+
+    <TextView
+        android:id="@+id/text_view_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="What all chronic diseases do you have?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diabetes"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Blood Pressure"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physically Challenged"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancer"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obesity"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashtma"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/c7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stroke"
+        android:onClick="sendMessage"/>
+
+    <TextView
+        android:id="@+id/text_view_question7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which genre do you like?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/f1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classical"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rock"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jazz"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDM"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rap"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrumental"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soofi"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heavy Metal"
+        android:onClick="sendMessage"/>
+
+    <TextView
+        android:id="@+id/text_view_question10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which Decade's music do you like?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70's"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="80's"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/i3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90's"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/i4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00's"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/i5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10's"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/i6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current"
+        android:onClick="sendMessage"/>
+
+    <TextView
+        android:id="@+id/text_view_question13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Which Cloth Material do you like?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cotton"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wool"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silk"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leather"
+        android:onClick="sendMessage"/>
+
+    <RadioButton
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Denim"
+        android:onClick="sendMessage"/>
+
 </RelativeLayout>
