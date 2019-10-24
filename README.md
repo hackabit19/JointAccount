@@ -1,4 +1,4 @@
-# JointAccount
+# DecisiO
 
 Welcome Fellas to our project DecisiO !
 
